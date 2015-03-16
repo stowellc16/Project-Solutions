@@ -8,4 +8,3 @@ string = input('Enter a string: ')
 numwords = len(string.split(' '))
 
 print('The string contains %s words.' % numwords)
-
