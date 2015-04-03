@@ -5,13 +5,12 @@ __author__ = 'stowellc16'
 string = input('Enter a string: ')
 list_string = list(string)
 
-vowels = ['a', 'e', 'i', 'o', 'u']
 total_vowels = 0  # keeps track of total vowels in a string
 
 for char in list_string:
-    if char in vowels:
+    if char in (a, e, i, o, u):        
         total_vowels += 1
-
+/bin/bash: Desktop/programming/python/Project-Solutions/Text/countvowels.py: Permission denied
 if total_vowels > 1:
     print("There are %s vowels in %s." % (total_vowels, string))
 elif total_vowels == 1:
